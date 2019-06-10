@@ -1,0 +1,35 @@
+.tale_box{
+	padding:0px; 
+	margin:0px; 
+	margin-bottom:15px;
+}
+.content_box{
+	max-height:205px; 
+	overflow:hidden;
+}
+.tale_img{
+	max-height:50px; 
+	min-height:50px; 
+	max-width:50px; 
+	min-width:50px; 
+	border:2px solid #E5E5E5;
+}
+.name_link{
+	color: black; 
+	font-size: 16px;	
+	padding: 0px 0px;
+}
+.name_link:hover
+{
+	text-decoration: none;	
+	color: black;
+}
+.more_link
+{
+	color: #56D1BF;
+	font-size:12px;
+}
+.more_link:hover
+{	
+	color: #56D1BF;
+}

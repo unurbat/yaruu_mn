@@ -1,0 +1,78 @@
+.poem-container
+{
+	margin-top: 20px;
+}
+.poem-jumbo{
+    padding: 30px;
+    border: 1px solid #DFE0E1;
+    position: relative;
+    background-color: white;
+	border-radius: 0px;
+	/*box-shadow: 0px 0px 20px #DFE0E1;*/
+}
+.author-img
+{
+	position: absolute;
+	left: 50px;
+	top: -39px;
+	box-shadow: 0px 0px 30px grey;
+	border-radius: 50%;
+}
+.poem-jumbo:hover{   
+	/*box-shadow: 0px 0px 20px #DFE0E1;*/
+	border: 1px solid #ccc;
+}
+.poem-box{
+    min-height: 150px;
+    max-height: 150px;
+    overflow: hidden;
+	/* cursor: default;   */
+	margin-top: 30px;   
+}
+.poem_content span
+{
+	text-align: center; 
+	font-size:14px;
+}
+.poem_content span p{
+    margin: 0px;
+}
+.name_link{	
+	font-size:14px; 
+	font-weight: 700; 
+	padding: 8px 0px;
+	color: black;
+}
+.name_link:hover{
+	text-decoration: none;
+	color: black;
+}
+.more_link{
+	color: black; 
+	font-size: 11px; 
+	font-weight: bold; 
+	text-decoration:none;
+}
+.more_link:hover
+{
+	text-decoration: none;
+	color: black;
+}
+.com_n_views{
+	color: black; 
+	font-size:11px;
+	width:100%;
+}
+.com_td{
+	padding-top: 10px; 
+	width:35%;
+}
+.views_td{
+	text-align: right;
+	width:35%;
+}
+/*
+.icon-content
+{
+	color: blue;
+}*/

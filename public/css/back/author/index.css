@@ -1,0 +1,48 @@
+.author-box{
+    padding: 5px;
+    cursor: default;
+}
+.author-box hr{
+    padding: 0px;
+    margin: 0px;
+}
+.author-box .jumbotron{
+    margin: 0px;
+    padding: 20px 30px 30px 30px;               
+    overflow: hidden;
+    position: relative;
+}                        
+.jumbotron .row{
+    margin: 0px;                
+}            
+.author-img-box{
+    padding: 0px;    
+	max-height: 40px;    
+	min-height: 40px;    
+	max-width: 40px;    
+	min-width: 40px;    
+	width: 100%;    
+	overflow: hidden;
+}
+.author-img-box img{
+    width: 100%;                
+}
+.author-title{
+    padding: 0px;    
+	text-align: center;    
+	display: inline-block;   
+	vertical-align: text-bottom;
+}
+.author-title a{
+    color: black;    
+	font-size: 13px;    
+	font-weight: 700;                
+}
+.author-desc-box {
+    max-height: 100px;    
+	min-height: 100px; 
+	overflow: hidden;   
+	text-align: justify; 
+	margin: 15px 0px 0px 0px;  
+	padding: 0px;
+}  

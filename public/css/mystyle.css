@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale&subset=cyrillic,cyrillic-ext,devanagari,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&subset=cyrillic-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Tinos:400,700&subset=cyrillic-ext');
+
+body{	
+    
+    /* font-family: 'Kurale', serif; */
+    /* font-family: 'Merriweather', serif; */
+
+    /* font-family: 'Noto Serif', serif; */
+
+    /* font-family: 'Fira Sans', sans-serif; */
+
+    /* font-family: 'Ubuntu Mono', monospace; */
+
+    font-family: 'Tinos', serif;
+}
+
+.author_h1
+{
+    font-size:12px;
+    font-weight:bold;
+}
+.title_h1
+{
+    font-size: 22px;
+    color:#56D1BF;
+    font-weight: 400;
+}
+.hidden_header
+{
+    display:none;
+}
+
+/********************* Main Menu Color *******************/
+
+.header-section .bg-dark{
+    background-color: #56D1BF!important; 
+    /* height: 100px; */
+}
+.menu-cup-icon
+{
+    font-weight:700; 
+    color:#F3C723;
+    color: grey;
+    font-size:15px;
+}
+
+/*******************Main Menu Style ***********************/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+
+@media (min-width : 575.98px)
+{
+	.navbar-brand 
+	{
+    	display: none!important;
+	}	
+	.show_name
+	{
+		font-size: 20px;
+	}	
+	.show_td
+	{
+		width:10%;
+	}
+}
+
+@media (max-width: 575.99px)
+{
+	.show_name
+	{
+		font-size: 15px;
+	}	
+	.show_td
+	{
+		width:20%;
+	}
+}
+
+[aria-expanded="false"] .open_btn {
+    display: block;
+}
+.show_img_td
+{
+	width: 10%;
+}
+
+[aria-expanded="false"] .close_btn {
+    display: none;
+}
+
+[aria-expanded="true"] .open_btn {
+    display: none;
+}
+
+[aria-expanded="true"] .close_btn {
+    display: block;
+}
+.close_btn{	
+	cursor: pointer;
+	color: white;
+}
+.main_ul li.nav-item a.nav-link{
+	display: table-cell;
+	vertical-align: middle;
+	height: 60px;
+}
+.tale-link{
+	position: relative;
+}
+.tale-dropdown{
+	position: absolute;
+	display: none;
+	z-index: 1;
+	padding: 10px;
+	padding-top: 0px;
+}
+.nav-item.tale-link:hover .tale-dropdown{
+	display: block!important;
+	background-color: aqua;
+}
+.dropdown-menu{
+	margin:0px;
+	border-radius: 0px;
+}
+
+.container{
+    padding-top: 30px;    
+	padding-bottom: 30px;
+}
+
+/******************** Sidebar Tabs *********************/
+.sidebar_tab{
+	margin-bottom:50px;
+}
+li.nav-item > a.nav-link.active{        
+    border-bottom: 2px solid grey;    
+	color: black;
+}
+.nav-tabs{
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.nav-tabs .nav-link{
+    border-radius: 0px; 
+}
+.nav-tabs a{
+   color:grey;       
+	display: table;      
+	height: 100%;    
+	width: 100%;
+}
+.nav-tabs a span{
+    display: table-cell;    
+	vertical-align: middle;
+}
+.nav-tabs a:hover{
+    color: black;    
+	border: none;
+}
+.tab-content{
+    border:none;
+}
+.nav-tabs .nav-item .nav-link{
+    padding: 7px;   
+	font-size: 20px;
+}
+.nav-tabs .nav-link.active {
+    color: #56D1BF!important;  
+    background-color: #f5f5f5;
+    font-size: 20px;  
+	border: none;
+}
+.nav-tabs .nav-item{
+    background-color: white;
+    margin: 0px 1px;
+}
+.sidebar_img
+{
+	max-width:40px; 
+	min-width:40px; 
+	overflow-y:hidden; 
+	min-height:40px; 
+	max-height: 40px;
+}
+
+/******************* Sidebar Angilal and Author *********************/
+
+.sidebar_h1{
+	margin-top:40px;
+	border-bottom: 2px solid #56D1BF; 
+	text-align:center; 
+	padding: 10px; 
+	color:grey; 
+	font-weight: bold;
+}
+.sidebar_cat{
+	padding-top: 10px;	
+}
+.sidebar_cat .greeting_list
+{
+	list-style: none;
+}
+.sidebar_cat .tale_list
+{
+	list-style: circle;
+}
+.sidebar_cat li a{
+	color: black; 
+	font-size: 15px;
+}
+.author_list_div{
+	padding-top: 10px; 
+	height:500px; 
+	overflow:auto;
+}
+.author_list_div .input-group{
+	width: 100%; 
+	margin: 5px 0px;
+}
+#finder_input{
+	font-size:12px; 
+	height: 25px; 
+	width: 85%; 
+	padding-left: 10px;
+}
+.input-group-prepend{
+	font-size:12px; 
+	height: 25px; 
+	width:15%;
+}
+.author_list_div .fas.fa-search{
+	font-weight:bold; 
+	font-size:12px;
+}
+#author_list li
+{
+	list-style:square;
+}
+#author_list li a{
+	color: black; 
+	font-size: 15px;
+}
+
+
+/******************* SideBar Content *****************/
+
+.sidebar_li{
+    list-style: none;
+    margin: 0px;
+}
+.sidebar_li:hover{
+    background-color: #F2F2F2;    
+}
+.sidebar_li a{
+    color: black;
+    font-size: 14px;
+}
+.sidebar_li a:hover{
+    text-decoration: none;
+}
+.sidebar_li .img_td{
+	padding: 8px 0px; 
+	border-bottom: 1px dotted #F2F2F2;
+	width:15%;
+}
+.sidebar_li .name_td{
+	padding-left: 7px; 
+	border-bottom: 1px dotted #F2F2F2;
+}
+.sidebar_views{
+	border-bottom: 1px dotted #F2F2F2; 
+	text-align:right; 
+	width: 10%; 
+	padding-right:7px;
+}
+
+
+
+/****************** Footer Section **********************/
+
+.footer-section{
+    background-color: #56D1BF;
+    border-top: 10px solid #56D1BF;
+/*    padding: 10px 0px;*/
+}
+.footer-section li{
+    list-style: none;
+/*    display: inline-block;*/
+}
+.footer-section li a{
+    color: white;
+}
+.footer-section li a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-header{
+    background-color: #56D1BF;
+}
+.myactive{
+	/* background-color:#AF0C5B;	 */
+}
+
+.myactive a.nav-link{
+	color: #6B777B!important;
+} 
+
+/************************ Comment Style **************************/
+
+#com_text{
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+/****************** Related NEWS *******************************/
+
+
+.parent_div{    
+    position: relative;
+    height: 70px;
+    overflow:hidden;
+    display: block;
+    margin-top:10px;
+}
+.child_div{
+    height: 70px; 
+    width: 1000%; 
+    position:absolute; 
+    transition: 0.5s; 
+    padding:0px 35px;
+}
+.l_arrow{
+    position: absolute;
+    left:0px;
+    top: 0px;  
+    cursor: pointer;
+    background-color: black;
+    height: inherit;
+    line-height: inherit;
+    opacity: 0.2;
+    color: white;
+    width: 30px; 
+    text-align: center;
+    font-size: 25px;
+}
+.l_arrow:hover{    
+    opacity: 0.6;
+}
+.r_arrow{
+    position: absolute;
+    right:0px;
+    top: 0px;
+    cursor: pointer;
+    height: inherit;  
+    background-color: black;
+    opacity: 0.2;
+    color: white;
+    width:30px;
+    text-align: center;
+    font-size: 25px;
+}
+.r_arrow:hover{   
+    opacity: 0.6;
+}
+.related-poems li{
+    display: table-cell;
+    float: left;
+}
+.related-poems{
+    display: table;
+}
+.related-poems li a{
+    color: black;
+    font-size: 13px;    
+}
+.related-poems li a img:hover{
+    filter: grayscale(60%);
+}
+.related-poems li a:hover{   
+    text-decoration: none;  
+}
+.related-img{
+    position: relative;
+}
+.related-name{
+    position: absolute;
+    left: auto;
+    bottom: 0px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    width:70px;
+    font-weight: bold;
+    max-height: 25px;
+    min-height: 25px;
+    vertical-align: middle;
+    overflow: hidden;
+    padding-left: 5px;
+}
+.related-img:hover div{
+    color: #56D1BF;
+}
+
+/**************************** PAGINATION *****************************/
+
+
+.pagination{
+    text-align: right;
+    display: block;    
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+.pagination li{
+    border: 1px solid #DFE0E1; 
+    /* border-radius: 25px; */
+    width: 30px;
+    text-align: center; 
+    display: inline-block;
+    margin: 0px 2px;
+    font-size:18px;
+}
+.pagination li:first-child{
+    border-left: 1px solid #DFE0E1;
+}
+.pagination li.active{
+    background-color: #56D1BF;
+    border: none;  
+    color: white;   
+}
+.pagination li a{
+    color: black;
+}
+.pagination li:hover{
+    background-color: #DFE0E1;
+}
+.pagination li.active:hover{
+    background-color: #56D1BF;    
+}
+
+.views_td, .fas
+{
+	font-weight: 400;
+}
+.a-container, .a-container:hover
+{
+    text-decoration: none;
+    color: black;
+}

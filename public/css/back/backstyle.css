@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale&subset=cyrillic,cyrillic-ext,devanagari,latin-ext');
+
+body{
+	font-family: 'Kurale', serif;
+}
+.main_ul li.nav-item a.nav-link
+{
+	display: table-cell;
+	vertical-align: middle;
+	height: 60px;
+}
+}  
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+li.nav-item > a.nav-link.active
+{        
+    border-bottom: 2px solid black;
+    color: black;
+}
+.nav-tabs{
+                border-bottom: 1px solid #E0E0E0;
+}
+.header-section .bg-dark{
+    background-color: #3C4045!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+.show_content span p
+{
+    margin: 0px;
+}
+.myactive
+{
+	background-color: black;	
+}
+.pagination
+{
+    text-align: center;
+    display: block;    
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+.pagination li
+{
+    border: 1px solid #DFE0E1; 
+    border-radius: 25px;
+    width: 25px;
+    text-align: center; 
+    display: inline-block;
+    margin: 0px 2px;
+}
+.pagination li:first-child
+{
+    border-left: 1px solid #DFE0E1;
+}
+.pagination li.active
+{
+    background-color: #BC046F;
+    border: none;
+    font-weight: bold;
+    color: white;   
+}
+.pagination li a
+{
+    color: black;
+}
+.pagination li:hover
+{
+    background-color: #DFE0E1;
+}
+.pagination li.active:hover
+{
+    background-color: #BC046F;    
+}
+.tale-link
+{
+	position: relative;
+}
+.tale-dropdown
+{
+	position: absolute;
+	display: none;
+	z-index: 1;
+	padding: 10px;
+	padding-top: 0px;
+}
+.nav-item.tale-link:hover .tale-dropdown
+{
+	display: block!important;
+	background-color: aqua;
+}
+.dropdown-menu
+{
+	margin:0px;
+	border-radius: 0px;
+}
